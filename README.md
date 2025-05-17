@@ -1,25 +1,46 @@
-# 📦 Streamlit App Starter Kit 
+# 🧠 Alzheimer Prediction App
+
+Une application MLOps complète pour prédire la probabilité qu'un patient développe la maladie d’Alzheimer à partir de données médicales, comportementales et sociales.
+
+![Streamlit UI](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
+
+---
+
+## 📊 À propos du projet
+
+Cette application combine :
+- ✅ **API Flask** pour la prédiction avec un modèle XGBoost
+- ✅ **Interface utilisateur Streamlit** pour l’entrée des données
+- ✅ **Pipeline de prétraitement** pour convertir les champs textuels
+
+---
+
+
 ```
-⬆️ (Replace above with your app's name)
-```
 
-Description of the app ...
+---
 
-## Demo App
+## 🧠 Modèle ML
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+- **Type** : XGBoostClassifier
+- **Données** : 24 variables issues de `ml.csv`
+- **Encodage** : prétraitement manuel dans `utils/preprocess.py`
+- **Sortie** : 0 = Pas Alzheimer, 1 = Risque Alzheimer
 
-## GitHub Codespaces
+---
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
 
-## Section Heading
+---
 
-This is filler text, please replace this with text for this section.
+## 📚 Ressources utiles
 
-## Further Reading
+- [Streamlit](https://docs.streamlit.io)
+- [Flask](https://flask.palletsprojects.com/)
+- [scikit-learn](https://scikit-learn.org/)
+- [XGBoost](https://xgboost.readthedocs.io/)
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+---
+
+## 📬 Contact
+
+Projet réalisé par Aziz Masmoudi  
