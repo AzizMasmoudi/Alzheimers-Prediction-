@@ -2,8 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 
-API_URL = "https://tvcvqc9ti682c2uqflaocv.streamlit.app/"
-response = requests.post(API_URL, json=input_data)
+
 st.set_page_config(page_title="Détection Alzheimer - UI Avancée", layout="wide")
 
 # Sidebar for model selection and instructions
