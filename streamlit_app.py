@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('🧠 Prédiction de la maladie d'Alzheimer')
 
-st.write('Hello world!')
+st.info('Projet MLOPS ('Aziz Masmoudi')
