@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 
+API_URL = "http://localhost:5000/predict"
 
 st.set_page_config(page_title="Détection Alzheimer - UI Avancée", layout="wide")
 
